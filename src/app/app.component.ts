@@ -69,7 +69,7 @@ export class AppComponent implements OnInit, OnDestroy{
   async registerServiceWorker() {
     try {
       // Register the service worker with `service-worker.js` with service worker scope `/`.
-      this.registeredServiceWorker = await serviceWorker.register('/service-worker.js', '/');
+      this.registeredServiceWorker = await serviceWorker.register('/assets/service-worker.js', '/');
       console.log("Trying installing Service Worker");
       //console.log(this.registeredServiceWorker);
 
