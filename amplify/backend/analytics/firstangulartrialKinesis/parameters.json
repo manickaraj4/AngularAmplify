@@ -1,0 +1,12 @@
+{
+  "kinesisStreamName": "firstangulartrialKinesis",
+  "kinesisStreamShardCount": 1,
+  "authRoleName": {
+    "Ref": "AuthRoleName"
+  },
+  "unauthRoleName": {
+    "Ref": "UnauthRoleName"
+  },
+  "authPolicyName": "kinesis_amplify_da2237d1",
+  "unauthPolicyName": "kinesis_amplify_da2237d1"
+}
