@@ -22,13 +22,13 @@
               "src/favicon.ico",
               "src/assets",
               "src/manifest.webmanifest",
-              "src/service-worker.js"
+              "src/assets/service-worker.js"
             ],
             "styles": [
               "src/styles.css"
             ],
             "scripts": [],
-            "serviceWorker": true,
+            "serviceWorker": false,
             "ngswConfigPath": "ngsw-config.json"
           },
           "configurations": {
